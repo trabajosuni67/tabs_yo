@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quien_soy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#002C75">
+
+        <TextView
+            android:layout_width="410dp"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:text="Mis Datos"
+            android:background="#f154a5"
+            android:textColor="@color/white"
+
+            android:textSize="22dp"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:padding="5dp"
+        android:text="Nombre "
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtnombre"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginTop="129dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:padding="5dp"
+        android:text=" Mostrará nombre"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:padding="5dp"
+        android:text="Apellidos"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtApellido"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:text=" Mostrará Apellidos"
+        android:textSize="16dp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:padding="5dp"
+        android:text="Carnet"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtcarnet"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:text=" Mostrará Carnet"
+        android:textSize="16dp"
+        android:textStyle="normal|bold" />/>
+
+    <TextView
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:padding="5dp"
+        android:text="Teléfono"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/Txttelefono"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginTop="420dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:text=" Mostrará Teléfono"
+        android:textSize="16dp"
+        android:textStyle="normal|bold" />/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Pasatiempo"
+        android:padding="5dp"
+        android:textSize="16dp"
+        android:layout_marginTop="530dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txtpastime"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginTop="530dp"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:text=" Mostrará pasatiempo"
+        android:textSize="16dp"
+        android:textStyle="normal|bold" />/>
+
+    <Button
+        android:id="@+id/mensajerW"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#002C75"
+        android:text="Escríbeme"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+</FrameLayout>
